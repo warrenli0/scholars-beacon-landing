@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- https://animate.style/ 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />-->
+    <title>Scholars Beacon</title>
+</head>
+<body>  
+
+    <div>
+
+        <!-- Hero Page -->
+        <div class="hero-page">
+            <div class="hero-text">
+                <div class="hero-centering hidden">
+                    <h1>Scholars Beacon</h1>
+                    <h2><span style="color: #025B9B;">Stand out</span> from the crowd — let’s improve your SAT/ACT score!</h2>
+                    <h4>Digital SAT & ACT preparation with analytics-driven learning and a student-powered community</h4>
+                    <button>try the beta!</button>
+                    <p>learn more below...</p>
+                </div>
+            </div>
+            <img src="images/cute-hero-penguin.png">
+            <div class="beach"></div>
+            <!--<div class="temp"><h1>text</h1></div> -->
+        </div>
+
+
+        <!-- Hook -->
+        <div class="hook-page">
+            <div class="orange-fish fish1">
+                <img src="images/orange_fish_right.png" onclick="fishOneSpeak()" id="orange-fish-right">
+                <img src="images/orange_fish_right_text.png" id="fish1-text">
+            </div>
+            <div class="orange-fish fish2">
+                <img src="images/orange_fish_right.png">
+            </div>
+            <div class="orange-fish fish3">
+                <img src="images/orange_fish_right.png">
+            </div>
+            <div class="fish4">
+                <img src="images/orange_fish_left.png">
+            </div>
+            <div class="big-orange">
+                <img src="images/big_orange_fish_right.png">
+            </div>
+            <div class="hook-text">
+                <div class="main-hook hidden">
+                    <h1 style="z-index: 1;">One of our co-founders improved their ACT score from <span style="color: #FFD979;">31 to 36</span> just by self-studying. You can too!</h1>
+                </div>   
+                <h1 style="color: #FFD979; font-weight: 500; text-align: center; position: relative; z-index: 1;" class="hidden heres-how">here's how...</h1>
+            </div>
+            <div class="hook-wave"></div>
+        </div>
+
+        <!-- 3 Pointer penguins -->
+        <div class="seaweed-page">
+            <div class="orange-fish fish2">
+                <img src="images/orange_fish_right.png">
+            </div>
+            <div class="big-orange">
+                <img src="images/big_orange_fish_right.png">
+            </div>
+            <div class="green-fish">
+                <img src="images/green-fish-left.png">
+            </div>
+            <div class="fish4">
+                <img src="images/orange_fish_left.png">
+            </div>
+            <div class="seaweed-text">
+                <div class="sea-item sea-repetition-text">
+                    <div class="sea-header-text hidden">
+                        <h1>Repetition</h1>
+                        <h3>redo problems until you fully understand</h3>
+                    </div>
+                </div>
+                <div class="sea-item sea-accountability-text">
+                    <div class="sea-header-text hidden2">
+                        <h1>Accountability</h1>
+                        <h3>build a system to solve problems regularly</h3>
+                    </div>
+                </div>
+                <div class="sea-item sea-community-text">
+                    <div class="sea-header-text hidden3">
+                        <h1>Community</h1>
+                        <h3>collaborate and learn with your peers</h3>
+                    </div>
+                </div>
+                <div class="sea-img sea-repetition-bubble">
+                    <img src="images/repetition-bubble.png" class="hidden seawweedo">
+                </div>
+                <div class="sea-img sea-accountability-bubble">
+                    <img src="images/accountability-bubble.png" class="hidden2 seawweedo2">
+                </div>
+                <div class="sea-img sea-community-bubble">
+                    <img src="images/community-bubble.png" class="hidden3 seawweedo3">
+                </div>
+            </div>
+            <div class="seaweed-wave"></div>
+        </div>
+
+         <!-- SB Info -->
+         <div class="sb-page">
+            <div class="fish5">
+                <img src="images/orange_fish_left.png">
+            </div>
+            <div class="green-fish-right">
+                <img src="images/green-fish-right.png">
+            </div>
+            <div class="green-fish2">
+                <img src="images/green-fish-left.png">
+            </div>
+            <div class="big-orange">
+                <img src="images/big_orange_fish_right.png">
+            </div>
+            <div class="big-orange-whale">
+                <img src="images/big-orange-whale.png">
+            </div>
+            <div class="sb-grid">
+                <div class="sb-header-text hidden">
+                    <h1>so... what is Scholars Beacon?</h1>
+                    <h3>a SAT/ACT online prep platform that incorporates all values mentioned above to increase your score</h3>
+                </div>
+                <div class="sb-item-text hidden">
+                    <h3>Question list of <b>1000+ problems</b> ranging in all topics – categorized by <b>subtopics & difficulty</b></h3>
+                </div>
+                <div class="sb-img">
+                    <img src="images/database.png" class="hidden2" id="database-pic">
+                </div>
+                <div class="sb-img">
+                    <img src="images/old-dashboard.png" class="hidden2">
+                </div>
+                <div class="sb-item-text hidden">
+                    <h3><b>Analytics dashboard</b> to highlight your strong and weak areas</h3>
+                </div>
+                <div class="sb-item-text hidden">
+                    <h3>The fastest growing SAT/ACT <b>online community</b> — study and learn together!</h3>
+                </div>
+                <div class="sb-img">
+                    <img src="images/temp-discord.png" class="hidden2">
+                </div>
+                <div class="sb-img">
+                    <img src="images/prac-prob.png" class="hidden2">
+                </div>
+                <div class="sb-item-text hidden">
+                    <h3>Daily <b>personalized</b> practice problems determined by your performance</h3>
+                </div>
+              </div> 
+        </div>
+
+        <!-- Ocean Bottom -->
+        <div class="ocean-bottom">
+            <div class="orange-fish fish2">
+                <img src="images/orange_fish_right.png">
+            </div>
+            <div class="big-orange">
+                <img src="images/big_orange_fish_right.png">
+            </div>
+            <div class="green-fish">
+                <img src="images/green-fish-left.png">
+            </div>
+            <div class="ocean-content">
+                <h1 class="hidden ocean-header">Launching in early March! Stay tuned!</h1>
+                <div class="ocean-img hidden ocean-scuba-png">
+                    <img src="images/scuba-peng-with-text.png" class="scuba-peng seawweedo">
+                </div>
+                <div class="ocean-img ocean-discord">
+                    <img src="images/discord-bubble.png" class="seawweedo2 discord-bubu hidden2">
+                    <img src="images/small-bubble.png" class="hidden2 small-bub seawweedo3" id="bub1">
+                    <img src="images/small-bubble.png" class="hidden2 small-bub seawweedo4" id="bub2">
+                    <img src="images/small-bubble.png" class="hidden2 small-bub seawweedo5" id="bub3">
+                    <img src="images/small-bubble.png" class="hidden2 small-bub seawweedo6" id="bub4">
+                </div>
+                <div class="ocean-text five-probs">
+                    <h3 class="hidden">5 problems, give it your best shot!</h3>
+                </div>
+                <div class="ocean-text join-disc">
+                    <h3 class="hidden2">join our discord for updates and resources</h3>
+                </div>
+            </div>
+            <div class="ocean-bottom-beach"></div>
+            <img src="images/small-closed-treasure.png" onclick="openChest()" id="closed-treasure">
+            <img src="images/open-treasure-peng-speak.png" id="open-treasure">
+            <p id="ocean-footer-text">Copyright @ 2024 Scholars Beacon | Contact: scholarsbeacon@gmail.com</p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
